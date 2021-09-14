@@ -130,8 +130,6 @@ const closeModalButton = document.querySelectorAll('.closeModal');
 const overlays = document.querySelectorAll('.overlay');
 const projects = document.querySelectorAll('.project');
 
-console.log(projects);
-
 openModalButton.forEach(button => {
     button.addEventListener('click', () => {
         const modal = button.nextElementSibling;
